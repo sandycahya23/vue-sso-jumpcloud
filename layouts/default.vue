@@ -81,6 +81,11 @@ export default {
           title: 'Inspire',
           to: '/inspire',
         },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'SSO Login',
+          to: '/SSOLogin',
+        },
       ],
       miniVariant: false,
       right: true,
