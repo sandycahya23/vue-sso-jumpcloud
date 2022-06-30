@@ -17,10 +17,11 @@ $ yarn dev
 # build for production
 $ yarn build # build
 $ yarn start # start the server
-$ yarn deploy # deploy to github pages
 
+# we use this deployment
 # generate static project
 $ yarn generate
+$ yarn deploy # deploy to github pages
 ```
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
