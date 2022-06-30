@@ -1,5 +1,10 @@
 # vue-sso-jumpcloud
 
+## Requirements
+  
+- node 14
+- yarn ( npm i -g yarn)
+
 ## Build Setup
 
 ```bash
@@ -9,12 +14,14 @@ $ yarn install
 # serve with hot reload at localhost:3000
 $ yarn dev
 
-# build for production and launch server
-$ yarn build
-$ yarn start
+# build for production
+$ yarn build # build
+$ yarn start # start the server
 
+# we use this deployment
 # generate static project
 $ yarn generate
+$ yarn deploy # deploy to github pages
 ```
 
 For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
